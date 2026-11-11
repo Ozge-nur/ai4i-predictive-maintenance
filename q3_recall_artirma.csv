@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1,FN (kaçan),FP (yanlış alarm)
+1) Temel DT (budanmamış),0.978,0.687,0.676,0.681,22,21
+"2) Budanmış DT (depth=5, leaf>=5)",0.974,0.778,0.309,0.442,47,6
+3) + class_weight='balanced',0.93,0.311,0.882,0.46,8,133
+4) Budanmış DT + eşik=0.11,0.918,0.274,0.868,0.417,9,156
+5) Budanmış DT + türetilmiş özellik,0.992,0.949,0.824,0.882,12,3
+6) Özellik + class_weight,0.948,0.391,0.926,0.55,5,98
